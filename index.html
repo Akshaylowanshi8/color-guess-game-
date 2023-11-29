@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the colour game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body  onload="show()">
+   <center><h1>Guess the colour game</h1>
+    <h1 id="result" ></h1> 
+        
+<dib id="one" onload="show()">
+    <div onclick="pickC('red')" id="div0">click me</div>
+    <div onclick="pickC('#000')" id="div1">click me</div>
+    <div onclick="pickC('#2f39ec')" id="div2">click me</div>
+    <div onclick="pickC('hotpink')" id="div3">click me</div>   
+    <div onclick="pickC('#a0a0a0')"id="div4">click me</div>
+   
+</dib></center>
+<div id="cc">
+   <div id="choice"> choose the colour</div>
+   <div id="div"></div>
+</div>
+  <div id="cc">
+        
+    <button id="start" onclick="btn()">start</button>
+    <button id="reset" onclick="res()">Restart</button>
+  </div>
+  <script src="script.js"></script>  
+</body>
+</html>

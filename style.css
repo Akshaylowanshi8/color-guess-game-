@@ -1,0 +1,60 @@
+body{
+    margin: 20px;
+    box-sizing: border-box;
+  overflow-y: hidden;
+  background: radial-gradient(#fceabb, #f8b500);
+  background-repeat: no-repeat;
+  
+}
+
+#div{
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    border: 2px solid red;
+
+}
+#div0, #div1 ,#div2 ,#div3 , #div4,#choice{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border: 2px solid red;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+
+}
+#one ,#cc{
+display: flex;
+justify-content: center;
+}
+button{
+padding: 30px;
+margin: 30px;
+font-style: italic;
+font-weight: 900;
+font-size: xx-large;
+border-radius: 10px;
+
+
+}
+#result{
+color: red;
+text-align: center;
+}
+#choice{
+text-align: center;
+justify-content: center;
+align-items: center;
+color: chartreuse;
+font-size:25px;
+}
+#reset{
+background:yellow;
+border-radius: 10px;
+}
+#start{
+background-color: green;
+}
