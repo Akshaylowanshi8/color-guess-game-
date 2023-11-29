@@ -58,3 +58,29 @@ border-radius: 10px;
 #start{
 background-color: green;
 }
+
+@media screen and (max-width: 425px ) {
+ body {
+    scale: .6;
+    margin: 0px;
+    margin-bottom: 30px;
+ }
+ #div0, #div1 ,#div2 ,#div3 , #div4,#choice{
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border: 2px solid rgb(51, 255, 0);
+ 
+
+}
+#div{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border: 2px solid rgb(21, 255, 0);
+
+}
+#choice{
+    font-size: 16px;
+}
+}
